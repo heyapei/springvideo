@@ -13,12 +13,12 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 
 @Configuration
 public class MyURLPatternConfiguration extends WebMvcConfigurationSupport {
-	@Override
-	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/uploadImg/**").addResourceLocations("classpath:/uploadImg/");
-		registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/favicon.ico").addResourceLocations("classpath:/favicon.ico");
+        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
 
-		super.addResourceHandlers(registry);
-	}
+        super.addResourceHandlers(registry);
+    }
 }
 
