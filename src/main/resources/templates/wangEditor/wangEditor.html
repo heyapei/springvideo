@@ -17,6 +17,19 @@
     <script src="/static/wangeditor/jquery.slim.min.js"></script>
     <script src="/static/wangeditor/popper.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="/static/videoImg/css/light-box.css">
+    <link rel="stylesheet" href="/static/videoImg/css/templatemo-style.css">
+
+    <link href="/static/css/googleapis.css" rel="stylesheet">
+
+    <script src="/static/videoImg/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <script src="/static/videoImg/js/plugins.js"></script>
+    <script src="/static/videoImg/js/main.js"></script>
+
+
     <script>
         /*编辑器编辑后，提交时执行js，获得编辑器的内容，赋值给textarea，用于向后台提交存入数据库*/
         function modifyContent() {
@@ -26,30 +39,135 @@
     </script>
 </head>
 <body>
+
+<nav>
+    <div class="logo">
+        <a href="/">YAPEI<em>H</em></a>
+    </div>
+    <div class="menu-icon">
+        <span></span>
+    </div>
+</nav>
+
+<div style="position: relative;
+  width: 100%;
+  height: 11%;
+  overflow: hidden;
+  z-index: 1;">
+    <div style="
+  z-index: 9999;
+  background: #313131;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  "></div>
+</div>
+
+
+<section class="overlay-menu">
+    <div class="container">
+        <div class="row">
+            <div class="main-menu">
+                <ul>
+                    <li>
+                        <a href="https://github.com/heyapei">GITHUB</a>
+                    </li>
+                    <li>
+                        <!-- <a href="javascript:alert('日志系统还没有写好')">日记</a>-->
+
+                        <a href="/journal">日记</a>
+
+
+                    </li>
+
+
+                    <li>
+                        <a href="javascript:showPicture()">照片墙</a>
+                    </li>
+
+
+                </ul>
+                <p>你点不动，也别点</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function showPicture() {
+
+        var reason = window.prompt("资源敏感,请输入密钥", "");
+        //单纯判断用户是否填写“审核不通过理由”：
+        if (reason) {
+            //用户填写了理由
+        } else {
+            //用户没有填写理由 要区分用户不输入内容点击的是“确定”还是“取消”：
+            if (reason) {
+                //点击的是“确定”
+                return;
+
+            } else if (reason === "") {
+                // 用户没有输入内容点击的“确定”
+                reason;
+
+            } else {
+                //点击的是“取消”
+                return;
+            }
+        }
+
+
+        post('/picturewall/showpicture', {passWord: reason});
+
+    }
+
+    function post(url, params) {
+        var temp = document.createElement("form");
+        temp.action = url;
+        temp.method = "post";
+        temp.style.display = "none";
+        for (var x in params) {
+            var opt = document.createElement("textarea");
+            opt.name = x;
+            opt.value = params[x];
+            temp.appendChild(opt);
+        }
+        document.body.appendChild(temp);
+        temp.submit();
+        return temp;
+    }
+</script>
+
+
 <div class="container">
     <h2>您已经进入日记编辑界面</h2>
-    <input type="text" th:value="${article?.getSort()}">
-    <input type="text" th:value="${article?.getArticleContent()}">
-    <!--<span th:text="${article}">US</span>-->
-    <form action="/admin/addArticle" method="post" onsubmit="modifyContent()">
-        <input type="text" th:value="${article?.getId()}">
+
+    <form action="journaladd" method="post" onsubmit="modifyContent()">
         <div class="form-group">
-            <label for="title">文章标题</label>
+            <label for="title">日记标题</label>
             <input type="text" class="form-control" id="title" name="title" placeholder="文章标题"
-                   th:value="${article?.getTitle()}">
+                   th:value="${journal?.title()}" required>
         </div>
+
+
         <div class="form-group">
-            <label for="sort">栏目</label>
-            <select class="form-control" id="sort" name="sort">
-                <option value="0">学习</option>
-                <option value="1">生活</option>
-            </select>
+            <label for="title">创建人</label>
+            <input type="text" class="form-control" id="createUser" name="createUser" placeholder="创建人"
+                   th:value="${journal?.createUser}" required>
         </div>
 
         <div class="form-group">
             <label for="desci">简介</label>
-            <textarea class="form-control" id="desci" rows="3" name="description" placeholder="简介"
-                      th:text="${article?.getDescription()}"></textarea>
+            <textarea class="form-control" id="desci" rows="3" name="explainWord" placeholder="简介 内容不要太多"
+                      th:text="${journal?.explainWord}" required></textarea>
+        </div>
+
+
+        <div class="form-group">
+            <label for="desci">密码</label>
+            <input type="text" class="form-control" id="passWord" name="passWord" placeholder="密码 不填写为默认（000000）"
+                   th:value="${journal?.passWord}" required>
         </div>
 
 
@@ -58,7 +176,7 @@
         </div>
 
         <!-- 编辑器编辑，提交时执行js，获得编辑器的内容，赋值给textarea，用于向后台提交存入数据库 -->
-        <textarea rows="5" cols="35" name="article" style="display:none;" id="article"></textarea>
+        <textarea rows="5" cols="35" name="article" style="display:none;" id="article" ></textarea>
         <input id="submitArticleContent" th:value="${article?.getArticleContent()}" type="hidden">
         <script type="text/javascript">
             var E = window.wangEditor;
@@ -110,11 +228,21 @@
             }
         </script>
         <br/>
-        <input type="submit" class="am-btn am-btn-primary">
+        <input type="submit" class="btn btn-success">
     </form>
 </div>
+
+<div style="margin-top: 50px">
+
+</div>
 <!--加载页脚-->
-<!--<div th:include="communal/footPage :: footer"></div>-->
+<footer>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <p>Copyright © 2020. All Rights Reserved | Design by hyp</p>
+        </div>
+    </div>
+</footer>
 </body>
 
 </html>

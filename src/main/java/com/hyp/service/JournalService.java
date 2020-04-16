@@ -36,4 +36,14 @@ public interface JournalService {
      * @return
      */
     int addViewNum(Integer id);
+
+    /**
+     * 添加数据
+     *
+     * @param journal
+     * @return
+     */
+    int addJournal(Journal journal);
+
+
 }

@@ -60,4 +60,9 @@ public class JournalServiceImpl implements JournalService {
         int i = journalMapper.updateByPrimaryKey(journal);
         return i;
     }
+
+    @Override
+    public int addJournal(Journal journal) {
+        return journalMapper.insertUseGeneratedKeys(journal);
+    }
 }

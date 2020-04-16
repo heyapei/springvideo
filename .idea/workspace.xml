@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f5d7b0-f508-409d-b5d8-81b5a8505d72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyp/utils/FileNameUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyp/utils/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/wangeditor/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/wangeditor/jquery.parallax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/wangeditor/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/wangeditor/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/wangeditor/smoothscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/wangeditor/wangEditor-fullscreen-plugin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/wangeditor/wangEditor-fullscreen-plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/wangeditor/wangEditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/congratulations.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/doodles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/dust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/search-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/error.2020-04-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/error.2020-04-16.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.2020-04-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/info.2020-04-16.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyp/utils/FileUploadUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
@@ -1324,11 +1323,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4902">
+              <caret line="258" column="81" selection-start-line="258" selection-start-column="81" selection-end-line="258" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="143" column="74" selection-start-line="143" selection-start-column="74" selection-end-line="143" selection-end-column="74" />
+            <state relative-caret-position="1843">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1337,10 +1345,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/utils/FileUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/error.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="5852">
+              <caret line="308" column="14" selection-start-line="308" selection-start-column="14" selection-end-line="308" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/videoImg/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="60" column="72" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="45" column="83" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1349,31 +1384,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="3382">
+              <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/config/MyURLPatternConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="93" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/picturewall/Index.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="46" column="35" selection-start-line="44" selection-start-column="12" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="1235">
+              <caret line="65" column="51" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1679#1680#0" expanded="true" />
+                <element signature="e#1747#1748#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/dataobject/Journal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -1392,11 +1435,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@RequestMapping(&quot;/&quot;)</find>
-      <find>videoimglist</find>
-      <find>/wq</find>
-      <find>js</find>
-      <find>th</find>
       <find>th:t</find>
       <find>qr</find>
       <find>http://localhost:8080</find>
@@ -1416,16 +1454,22 @@
       <find>th:href=</find>
       <find>showBigPicture</find>
       <find>img-modal</find>
-      <find>submitArticleContent</find>
       <find>fileup</find>
       <find>savePath</find>
       <find>realSavePath</find>
       <find>通过file获取的url是</find>
+      <find>submitArticleContent</find>
+      <find>https://github.com/heyapei</find>
+      <find>style=&quot;color: white&quot;</find>
+      <find>1048576</find>
       <find>urlString</find>
+      <find>passWord</find>
+      <find>article</find>
     </findStrings>
     <replaceStrings>
       <replace>/wq</replace>
       <replace>pictureWall</replace>
+      <replace>https://github.com/heyapei/springvideo</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -1439,8 +1483,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/hyp/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hyp/dataobject/VideoImgDO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/mapper/VideoImgMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/videoImg/video.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/SpringTomcat.java" />
@@ -1455,11 +1497,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/index.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/service/VideoImgService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/service/impl/VideoImgServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/JournalMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/hyp/AdminTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/mapper/JournalMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/journal/showJournal.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/pictureWall/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/pictureWall/css/templatemo-style.css" />
@@ -1485,11 +1525,15 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/utils/UUIDUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/utils/FileNameUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/utils/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/config/MyURLPatternConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/myError/error2.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html" />
       </list>
     </option>
   </component>
@@ -1541,7 +1585,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1611,7 +1654,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hyp" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hyp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
@@ -1631,6 +1684,51 @@
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="myError" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="myError" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="myError" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="videoImg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1648,26 +1746,32 @@
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-net:commons-net:3.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-net:commons-net:3.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-net-3.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-net:commons-net:3.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-net-3.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1683,7 +1787,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587012248693" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587018123928" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -1700,27 +1804,27 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.hyp.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources" />
-      <recent name="D:\IdeaWorkSpace\springstart\sql" />
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\templates\pictureWall" />
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\videoImg\video" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\myError\images" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\templates\myError" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\myError" />
       <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\wangeditor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hyp.mapper" />
       <recent name="com.hyp.config" />
       <recent name="com.hyp.controller" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static" />
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\wangeditor" />
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\templates\wangEditor" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources" />
       <recent name="D:\IdeaWorkSpace\springstart\sql" />
-      <recent name="D:\IdeaWorkSpace\springstart" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\templates\pictureWall" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\videoImg\video" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1791,6 +1895,8 @@
       <module name="videoImg" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hyp.SpringstartApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1836,7 +1942,9 @@
       <workItem from="1587009308178" duration="144000" />
       <workItem from="1587009461014" duration="266000" />
       <workItem from="1587009779153" duration="379000" />
-      <workItem from="1587010170542" duration="2033000" />
+      <workItem from="1587010170542" duration="7942000" />
+      <workItem from="1587018186359" duration="427000" />
+      <workItem from="1587018626079" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="提交配置文件">
       <created>1559972061238</created>
@@ -1873,7 +1981,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587010093553</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="解决了富文本编辑器图片回显问题">
+      <created>1587012346160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587012346160</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1909,13 +2024,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96731000" />
+    <option name="totallyTimeSpent" value="103420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20259482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14471059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1939,7 +2054,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.499501" weight="0.3279678" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.499501" visible="true" weight="0.3249497" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.499501" visible="true" weight="0.32293764" />
       <window_info anchor="bottom" id="Tail" order="17" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.32964823" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -2017,7 +2132,8 @@
     <MESSAGE value="删除多余文件" />
     <MESSAGE value="同步sql文件" />
     <MESSAGE value="设置默认图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="设置默认图标" />
+    <MESSAGE value="解决了富文本编辑器图片回显问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决了富文本编辑器图片回显问题" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -2029,89 +2145,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/SpringstartApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="232" column="39" selection-start-line="232" selection-start-column="39" selection-end-line="232" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/videoImg/videoPlay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/VideoImgMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hyp/AdminTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/dataobject/ResourceUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/service/VideoImgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="31" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/service/impl/VideoImgServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="32" column="83" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/SoftWare/apache-maven-3.5.4-bin/apache-maven-3.5.4-bin/repository/tk/mybatis/mapper/3.5.3/mapper-3.5.3.jar!/tk/mybatis/mapper/common/base/update/UpdateByPrimaryKeyMapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -2151,26 +2184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2253,20 +2266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4902">
-          <caret line="258" column="81" selection-start-line="258" selection-start-column="81" selection-end-line="258" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4807">
-          <caret line="253" column="51" selection-start-line="253" selection-start-column="51" selection-end-line="253" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/vo/MyError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -2287,13 +2286,6 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/dataobject/Journal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -2344,17 +2336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/videoImg/videoImgList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/utils/UUIDUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/utils/UUID.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2363,24 +2344,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/videoImg/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/utils/FileUploadUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/resource.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2398,16 +2362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/picturewall/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="46" column="35" selection-start-line="44" selection-start-column="12" selection-end-line="46" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/config/MyURLPatternConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -2415,30 +2369,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/picturewall/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        <state relative-caret-position="697">
+          <caret line="46" column="35" selection-start-line="44" selection-start-column="12" selection-end-line="46" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/videoImg/videoImgList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="224" selection-start-line="224" selection-end-line="225" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/SoftWare/apache-maven-3.5.4-bin/apache-maven-3.5.4-bin/repository/commons-net/commons-net/3.5/commons-net-3.5.jar!/org/apache/commons/net/nntp/Article.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/SoftWare/apache-maven-3.5.4-bin/apache-maven-3.5.4-bin/repository/org/springframework/spring-webmvc/4.3.24.RELEASE/spring-webmvc-4.3.24.RELEASE.jar!/org/springframework/web/servlet/mvc/support/RedirectAttributesModelMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/SoftWare/apache-maven-3.5.4-bin/apache-maven-3.5.4-bin/repository/org/springframework/spring-webmvc/4.3.24.RELEASE/spring-webmvc-4.3.24.RELEASE.jar!/org/springframework/web/servlet/mvc/support/RedirectAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/SoftWare/apache-maven-3.5.4-bin/apache-maven-3.5.4-bin/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.40/tomcat-embed-core-8.5.40.jar!/org/apache/tomcat/util/http/fileupload/FileUploadBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="583" column="25" selection-start-line="583" selection-start-column="25" selection-end-line="583" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/utils/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="207">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="143" column="74" selection-start-line="143" selection-start-column="74" selection-end-line="143" selection-end-column="74" />
+        <state relative-caret-position="493">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/SoftWare/apache-maven-3.5.4-bin/apache-maven-3.5.4-bin/repository/tk/mybatis/mapper/3.5.3/mapper-3.5.3.jar!/tk/mybatis/mapper/common/special/InsertUseGeneratedKeysMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/myError/images/error.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/myError/images/congratulations.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4902">
+          <caret line="258" column="81" selection-start-line="258" selection-start-column="81" selection-end-line="258" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5852">
+          <caret line="308" column="14" selection-start-line="308" selection-start-column="14" selection-end-line="308" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/videoImg/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="72" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3382">
+          <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="65" column="51" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/dataobject/Journal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="45" column="83" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="86" />
         </state>
       </provider>
     </entry>

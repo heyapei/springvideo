@@ -15,11 +15,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -55,7 +57,7 @@ public class Index {
     }
 
 
-    @RequestMapping(value = "/showjournal")
+    @RequestMapping(value = "/showjournal", method = RequestMethod.POST)
     public String showJournal(@RequestParam String passWord, @RequestParam Integer journalId, ModelMap map) {
         Journal journal = journalService.getJournalById(journalId);
         if (journal == null) {
@@ -86,6 +88,43 @@ public class Index {
     public String journalEditorPage() {
 
         return "wangEditor/wangEditor";
+    }
+
+
+    @RequestMapping(value = "/testCongratulation", method = RequestMethod.GET)
+    public String testCongratulation() {
+
+        return "myError/congratulations";
+    }
+
+
+
+    @RequestMapping(value = "/journaladd", method = RequestMethod.POST)
+    public String journalAdd(@RequestParam Map<String, Object> params,
+                             RedirectAttributes attr,
+                             ModelMap map) {
+
+        Journal journal = new Journal();
+        journal.setPassWord(params.get("passWord").toString());
+        journal.setCreateUser(params.get("createUser").toString());
+        journal.setJournal(params.get("article").toString());
+        journal.setExplainWord(params.get("explainWord").toString());
+        journal.setTitle(params.get("title").toString());
+        journal.setViewNum(0);
+        journal.setCreateTime(new Date());
+        journal.setStatus(1);
+        int i = journalService.addJournal(journal);
+
+        if (i <= 0) {
+            MyError myError = new MyError(500, "Journal failed", "It may be due to database fluctuation or sensitive Xi in your documents");
+            map.put("myError", myError);
+            return "myError/error";
+        }
+
+
+
+
+        return "myError/congratulations";
     }
 
     @ResponseBody
@@ -142,6 +181,7 @@ public class Index {
     /**
      * 获取当前类的运行路径
      * file:/D:/IdeaWorkSpace/springstart/target/classes/ 就相当于是获取了当前类的运行路径
+     *
      * @return
      */
     private static String getRuntimePath() {
@@ -159,7 +199,6 @@ public class Index {
         }
         return urlString.substring(urlString.indexOf("file:"), urlString.length() - classPath.length());
     }
-
 
 
 }
