@@ -1,0 +1,255 @@
+<!--
+  @Description: TODO 
+ 
+  @Author    何亚培
+  @Version   V1.0  
+  @Date      2020/4/15 10:33 
+-->
+<!DOCTYPE html>
+    <html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- Title -->
+        <title>LOVE&PEACE-日记列表</title>
+        <!-- Core Stylesheet -->
+        <link rel="stylesheet" href="/static/bootstrapblog/style.css">
+
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link href="/static/favicon/favicon.ico" mce_href="/static/favicon/favicon.ico" rel="icon"
+              type="image/x-icon">
+    <link rel="stylesheet" href="/static/videoImg/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/videoImg/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/static/videoImg/css/fontAwesome.css">
+    <link rel="stylesheet" href="/static/videoImg/css/light-box.css">
+    <link rel="stylesheet" href="/static/videoImg/css/templatemo-style.css">
+
+    <link href="/static/css/googleapis.css" rel="stylesheet">
+
+    <script src="/static/videoImg/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <script>
+        function inputPassWord(journalId) {
+            var reason;
+            if (journalId == 1) {
+                reason = "000000";
+            } else {
+                reason = window.prompt("资源已经被加密,请输入密码", "");
+                //单纯判断用户是否填写“审核不通过理由”：
+                if (reason) {
+                    //用户填写了理由
+                } else {
+                    //用户没有填写理由 要区分用户不输入内容点击的是“确定”还是“取消”：
+                    if (reason) {
+                        //点击的是“确定”
+                        return;
+
+                    } else if (reason === "") {
+                        // 用户没有输入内容点击的“确定”
+                        reason;
+
+                    } else {
+                        //点击的是“取消”
+                        return;
+                    }
+                }
+            }
+
+
+
+            post('journal/showjournal', {journalId: journalId, passWord: reason});
+
+        }
+
+        function post(url, params) {
+            var temp = document.createElement("form");
+            temp.action = url;
+            temp.method = "post";
+            temp.style.display = "none";
+            for (var x in params) {
+                var opt = document.createElement("textarea");
+                opt.name = x;
+                opt.value = params[x];
+                temp.appendChild(opt);
+            }
+            document.body.appendChild(temp);
+            temp.submit();
+            return temp;
+        }
+    </script>
+
+</head>
+<body>
+
+
+<nav>
+    <div class="logo">
+        <a href="/">YAPEI<em>H</em></a>
+    </div>
+    <div class="menu-icon">
+        <span></span>
+    </div>
+</nav>
+
+<div style="position: relative;
+  width: 100%;
+  height: 8.5%;
+  overflow: hidden;
+  z-index: 1;">
+    <div style="
+  z-index: 9999;
+  background: #313131;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  "></div>
+</div>
+
+<!-- ##### Blog Area Start ##### -->
+
+<div class="container">
+    <div class="row justify-content-between">
+
+        <div class="col-12 col-lg-8">
+            <div class="row">
+
+
+                <!-- Single Blog Post Area -->
+                <div class="col-12 col-md-6" th:each="journal,journalStat:${journals}">
+                    <div class="single-blog-post mb-50">
+                        <!--<div class="post-thumbnail">
+                            <a href="single-post.html"><img src="img/bg-img/10.jpg" alt=""></a>
+                        </div>-->
+                        <div class="post-content">
+                            <a th:href="'javascript:inputPassWord('+${journal?.id}+')'" class="post-title">
+                                <h4 th:text="${journal?.title}">no title</h4>
+                            </a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i><label
+                                        th:text="'&nbsp;'+${journal?.createUser}"></label></a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><label
+                                        th:text="'&nbsp;'+${#dates.format(journal?.createTime,'yyyy-MM-dd HH:mm:ss')}"></label></a>
+                            </div>
+                            <p class="post-excerpt" th:text="${journal?.explainWord}"></p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<section class="overlay-menu">
+    <div class="container">
+        <div class="row">
+            <div class="main-menu center-block">
+                <ul>
+                    <li>
+                        <a href="https://github.com/heyapei">GITHUB</a>
+                    </li>
+                    <li>
+                        <!--<a href="javascript:alert('日志系统还没有写好')">日记</a>-->
+                        <a href="/journal">日记</a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:showPicture()">照片墙</a>
+                    </li>
+
+
+                </ul>
+                <p>你点不动，也别点</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    function showPicture() {
+
+        var reason = window.prompt("资源敏感,请输入密钥", "");
+        //单纯判断用户是否填写“审核不通过理由”：
+        if (reason) {
+            //用户填写了理由
+        } else {
+            //用户没有填写理由 要区分用户不输入内容点击的是“确定”还是“取消”：
+            if (reason) {
+                //点击的是“确定”
+                return;
+
+            } else if (reason === "") {
+                // 用户没有输入内容点击的“确定”
+                reason;
+
+            } else {
+                //点击的是“取消”
+                return;
+            }
+        }
+
+
+        post('picturewall/showpicture', {passWord: reason});
+
+    }
+
+    function post(url, params) {
+        var temp = document.createElement("form");
+        temp.action = url;
+        temp.method = "post";
+        temp.style.display = "none";
+        for (var x in params) {
+            var opt = document.createElement("textarea");
+            opt.name = x;
+            opt.value = params[x];
+            temp.appendChild(opt);
+        }
+        document.body.appendChild(temp);
+        temp.submit();
+        return temp;
+    }
+</script>
+
+
+<footer>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <p>Copyright © 2020. All Rights Reserved | Design by hyp</p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- ##### Footer Area End ##### -->
+
+<!-- ##### All Javascript Script ##### -->
+<!-- jQuery-2.2.4 js -->
+<script src="/static/bootstrapblog/js/jquery/jquery-2.2.4.min.js"></script>
+<!-- Popper js -->
+<script src="/static/bootstrapblog/js/bootstrap/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="/static/bootstrapblog/js/bootstrap/bootstrap.min.js"></script>
+<!-- All Plugins js -->
+<script src="/static/bootstrapblog/js/plugins/plugins.js"></script>
+<!-- Active js -->
+<script src="/static/bootstrapblog/js/active.js"></script>
+
+<script src="/static/videoImg/js/plugins.js"></script>
+<script src="/static/videoImg/js/main.js"></script>
+
+
+</body>
+</html>

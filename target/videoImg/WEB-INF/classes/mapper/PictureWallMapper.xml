@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hyp.mapper.PictureWallMapper">
+  <resultMap id="BaseResultMap" type="com.hyp.dataobject.PictureWall">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="picture_url" jdbcType="VARCHAR" property="pictureUrl" />
+    <result column="pass_word" jdbcType="VARCHAR" property="passWord" />
+    <result column="create_user" jdbcType="VARCHAR" property="createUser" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="explain_word" jdbcType="VARCHAR" property="explainWord" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+
+</mapper>

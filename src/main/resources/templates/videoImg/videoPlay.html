@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>LOVE&PEACE-视频播放页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/favicon/favicon.ico" mce_href="/static/favicon/favicon.ico" rel="icon"
+          type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/static/customvedio/css/normalize.css"/><!--CSS RESET-->
+    <link rel="stylesheet" href="/static/customvedio/dist/css/ckin.css">
+    <link rel="stylesheet" href="/static/customvedio/css/demo.css">
+</head>
+<body>
+<div class="htmleaf-container">
+    <header class="htmleaf-header" style="text-align: center;
+  light-height: heightValue;">
+        <h1 th:text="${videoImg?.title}">你好中国</h1>
+    </header>
+    <section class="demo-section demo-section--light" id="demo">
+        <div class="container">
+            <video th:poster="${videoImg?.pic}" th:src="${videoImg?.url}" data-color="#fff000" data-ckin="compact"
+                   data-overlay="2"></video>
+
+        </div>
+    </section>
+
+    <div style="text-align: center;
+  light-height: heightValue;">
+        <p th:text="${videoImg?.explainWord}">你好中国</p>
+    </div>
+</div>
+
+<script src="/static/customvedio/dist/js/ckin.js"></script>
+</body>
+</html>

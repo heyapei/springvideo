@@ -1,0 +1,553 @@
+<!--
+  @Description: TODO 
+ 
+  @Author    何亚培
+  @Version   V1.0  
+  @Date      2020/4/15 9:19 
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <link href="/static/favicon/favicon.ico" mce_href="/static/favicon/favicon.ico" rel="icon"
+          type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOVE&PEACE-日记记录</title>
+    <style>
+        html {
+            background: #fff
+        }
+
+        body, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, pre, blockquote, form, input, textarea, select, button, img {
+            padding: 0;
+            margin: 0
+        }
+
+        body, input, textarea, button, select {
+            font: 13px/1.5 Microsoft YaHei, Arial, Helvetica, sans-serif;
+            color: #333;
+            word-wrap: break-word
+        }
+
+        input, button, select {
+            line-height: 19px
+        }
+
+        h1 {
+            font-size: 1.9em;
+            margin: 1.1em 0 .5em
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #222
+        }
+
+        h3 {
+            font-size: 16px;
+            color: #322;
+            font-weight: normal;
+            margin: .95em 0 .4em
+        }
+
+        h4 {
+            font-size: 1.1em;
+            color: #222;
+            font-weight: normal;
+            margin: .5em 0 .2em
+        }
+
+        h5, h6 {
+            font-size: 1em;
+            margin: .4em 0 .15em
+        }
+
+        ul {
+            list-style: none
+        }
+
+        ol {
+            padding-left: 2em
+        }
+
+        dl {
+            margin: 1.5em 0
+        }
+
+        dt {
+            color: #666;
+            margin: 24px 0 2px
+        }
+
+        dd {
+            margin-bottom: .8em;
+            color: #222
+        }
+
+        a {
+            color: #e83;
+            text-decoration: none;
+            font-weight: bold
+        }
+
+        a.normal {
+            font-weight: normal
+        }
+
+        a:hover {
+            color: #f93;
+            text-decoration: underline
+        }
+
+        img {
+            border: 0
+        }
+
+        textarea {
+            overflow: auto;
+            resize: vertical;
+            outline: 0
+        }
+
+        textarea, select, input {
+            border: 1px solid #ddd
+        }
+
+        input {
+            height: 22px;
+            margin: 3px 0;
+            outline: 0
+        }
+
+        input, button {
+            display: inline-block
+        }
+
+        input[type=submit], input[type=button], input.submit {
+            height: auto
+        }
+
+        button, input[type=submit], input[type=button], input.submit, .fileinput-button {
+            padding: 5px 6px;
+            background: -webkit-linear-gradient(top, #fafafb, #eee);
+            background: -moz-linear-gradient(top, #fafafb, #eee);
+            background: linear-gradient(top, #fafafb, #eee);
+            border: 1px solid #c5c5c5;
+            border-radius: 2px
+        }
+
+        input[type=radio] {
+            height: auto;
+            border: 0
+        }
+
+        input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0
+        }
+
+        input::-moz-focus-inner, button::-moz-focus-inner {
+            border: 0;
+            padding: 0
+        }
+
+        input[type=submit], input.submit {
+            margin-top: 8px
+        }
+
+        input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, button:hover, .fileinput-button:hover {
+            cursor: pointer;
+            background: #fff
+        }
+
+        input[type="file"] {
+            border: 0;
+            height: 24px;
+            line-height: 24px
+        }
+
+        label {
+            display: inline-block;
+            margin: 4px 0
+        }
+
+        iframe {
+            display: block;
+            width: 100%
+        }
+
+        pre, code {
+            font-family: Consolas, "Liberation Mono", Courier, monospace
+        }
+
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word
+        }
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+            margin: 8px 0 40px
+        }
+
+        caption {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: .6em
+        }
+
+        th {
+            text-align: left;
+            font-weight: normal;
+            color: #9c9c9c
+        }
+
+        td, th {
+            padding: 5px 3px;
+            word-wrap: break-word;
+            border-bottom: 1px solid #eee
+        }
+
+        td {
+            color: #333;
+            font-size: 14px
+        }
+
+        table img {
+            vertical-align: middle
+        }
+
+        p {
+            margin: .5em 0
+        }
+
+        #main, #footer {
+        }
+
+        #main {
+            margin: 0 auto
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #sf {
+            width: 624px;
+            font-size: medium;
+            background: #fff
+        }
+
+        #sf, #md-view {
+            padding: 40px 96px
+        }
+
+        #file {
+            padding: 0;
+            background: #fff;
+        }
+
+        #file-view {
+            padding: 10px 0 15px;
+            min-height: 400px;
+            background: #f4f4f4;
+            border: 1px solid #ededed;
+            margin-top: 0px;
+        }
+
+        .CodeMirror {
+            color: #000;
+            width: 950px;
+            background: #fff;
+        }
+
+        #sf, #md-view, .CodeMirror, #file-view-tip {
+            border: 1px solid #ccc;
+            margin: 0 auto;
+            box-shadow: 0 0 6px #ccc;
+        }
+
+        #sf, #md-view {
+            min-height: 400px;
+        }
+
+        .article {
+            padding: 40px 200px 40px 60px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #333
+        }
+
+        .article h2, .article h3, .article h4, .article h5, .article h6 {
+            margin: 1.2em 0 .4em;
+            color: #333;
+            font-weight: bold
+        }
+
+        .article h1 + p, .article h2 + p, .article h3 + p, .article h4 + p, .article h5 + p, .article h6 + p, .article h1 + pre, .article h2 + pre, .article h3 + pre, .article h4 + pre, .article h5 + pre, .article h6 + pre, .article h1 + ul, .article h2 + ul, .article h3 + ul, .article h4 + ul, .article h5 + ul, .article h6 + ul, .article h1 + ol, .article h2 + ol, .article h3 + ol, .article h4 + ol, .article h5 + ol, .article h6 + ol {
+            margin-top: 0
+        }
+
+        .article p {
+            margin: .8em 0
+        }
+
+        #md-edit-help ul, .article ul {
+            list-style-type: disc;
+            padding-left: 2em
+        }
+
+        .article ul, .article ol {
+            margin: .5em 0
+        }
+
+        .article code {
+            font-size: 12px;
+            white-space: pre-wrap;
+            padding: 1px 5px 0;
+            background-color: #f8f8f8;
+            border: 1px solid #dadada;
+            border-radius: 2px;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            margin: 0 2px
+        }
+
+        .article pre {
+            font-size: 13px;
+            padding: 5px 10px;
+            background: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            margin: 1em 0
+        }
+
+        .article pre code {
+            white-space: pre-wrap;
+            padding: 0;
+            margin: 0;
+            border: 0
+        }
+
+        .article a {
+            font-weight: normal
+        }
+
+        .article blockquote {
+            color: #777;
+            padding: 0 15px;
+            border-left: 4px solid #DDD;
+            margin: 1.2em 0
+        }
+
+        .article table {
+            table-layout: auto;
+            width: auto;
+            margin: .8em 0
+        }
+
+        .article tr:nth-child(2n) {
+            background-color: #f8f8f8
+        }
+
+        .article th, .article td {
+            padding: 6px 13px;
+        }
+
+        .obv-btn, .big-obv-btn {
+            display: inline-block;
+            color: #fff;
+            padding: 4px 10px;
+            background-color: #60b044;
+            background-image: -webkit-linear-gradient(#8add6d, #60b044);
+            background-image: linear-gradient(#79d858, #569e3d);
+            background-repeat: repeat-x;
+            border: 1px solid #5ca941;
+            border-radius: 3px
+        }
+
+        .obv-btn:hover {
+            color: #fff;
+            text-decoration: none
+        }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="/static/easyui/themes/metro/easyui.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/easyui/themes/icon.css"/>
+    <script type="text/javascript" charset="utf-8" src="/static/easyui/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/static/easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" charset="utf-8"
+            src="/static/easyui/locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript">
+        GroupsOnFolder = [3, 4, 5];
+    </script>
+
+    <script type="text/javascript">
+        function copyToClipBoard() {
+            var clipBoardContent = '';
+            clipBoardContent += ' 继续教育项目文档应该有哪些？  ';
+            clipBoardContent += '\r\nhttps://kf.esnai.net/default.aspx?controller=KB&action=View&id=2483';
+            window.clipboardData.setData("Text", clipBoardContent);
+            alert("复制成功，请粘贴到你的QQ/MSN上推荐给你的好友");
+        }
+
+    </script>
+    <style>
+
+        /* back_to_top
+        ----------------------------------------*/
+
+        .scroll1 {
+            width: 30px;
+            height: 30px;
+            color: #fff;
+            line-height: 80px;
+            text-align: center;
+            position: fixed;
+            right: 20px;
+            bottom: 70px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .scroll1 img {
+            height: 35px;
+            width: 35px;
+
+        }
+    </style>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery(function () {
+                showScroll1();
+
+                function showScroll1() {
+                    jQuery(window).scroll(function () {
+                        var scrollValue = jQuery(window).scrollTop();
+                        scrollValue > 100 ?
+                            jQuery('div[class=scroll1]').fadeIn() :
+                            jQuery('div[class=scroll1]').fadeOut();
+                    });
+                    jQuery('#scroll1').click(function () {
+                        jQuery("html,body").animate({scrollTop: 0}, 200);
+                    });
+                }
+            });
+
+        });
+
+    </script>
+
+</head>
+<body>
+<div id="wrapper" class="en">
+    <div id="main" class="clear">
+        <div id="file">
+            <div id="file-view">
+                <div id="sf" class="article">
+                    <!--<form name="frmSearch" id="frmSearch" method="post"
+                          action="/default.aspx?controller=Search&action=SimpleSearch">
+                        <table border="0" cellspacing="0" cellpadding="0" style="width:650px;">
+                            <tr>
+                                <td width="42%" align="left">文档编号：2483 &nbsp;<font color=green><b>后台可见</b></font>
+                                </td>
+                                <td width="58%" align="right"><input name="key" type="key"
+                                                                     size="40" style="height:30px"
+                                                                     placeholder="&nbsp; 请输入文档编号或查询关键字">
+                                    <label>
+                                        <input type="submit" name="Submit" value="搜索">
+                                    </label>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>-->
+
+
+                    <p style="text-align:center;"><strong><span
+                            style="font-family:'微软雅黑','sans-serif';font-size:18.0pt;" th:text="${journal?.title}"></span></strong>
+                    </p>
+                    <p style="font-family:'Microsoft YaHei','sans-serif';font-size:10.0pt;color:gray">
+                        <a href="/" plain="true" class="easyui-linkbutton">首页</a> &gt;
+                    </p>
+
+                    <label th:utext="${journal?.journal}"></label>
+
+
+                    <!--<p style="font-family:'Microsoft YaHei','sans-serif';font-size:14.0pt;">
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        继续教育项目文档分类如图示分析。</p>
+                    <p>
+                        点击小图，查看完整图片</p>
+                    <p>
+                        <a href="http://kf.esnai.net/uploads/images/kb_doc_brief.png" target=_blank><img alt=""
+                                                                                                         src="http://kf.esnai.net/uploads/images/kb_doc_brief_mini.png"
+                                                                                                         style="width: 376px; height: 124px;"/></a>
+                    </p>
+
+                    </p>-->
+
+
+                    <!--文档回显部分-->
+
+
+                    <p style="font-family:'Microsoft YaHei','sans-serif';font-size:14.0pt; line-height:28px">
+
+                        <small>
+                            <small><img src="/static/videoImg/img/wechat.png" width="150"
+                                        height="151" hspace="10" align="right"></small>
+                            <span style="font-family:'Microsoft YaHei','sans-serif';font-size:12.0pt;color:gray;">[全文完] </span><br/>
+                            如何你也想改进这个文档，那就交个朋友！ 一起学习学习<b>web</b><br/>
+                            扫描二维码微信共同进步
+                        </small>
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+
+                    <div style="font-family:'Microsoft YaHei','sans-serif';font-size:12.0pt; line-height:28px;border-top:1px dashed #999">
+                        <b>发布</b>：<label th:text="${#dates.format(journal?.createTime,'yyyy-MM-dd HH:mm:ss')}" >2020-04-15 13:12</label><br/>
+
+                        <b>发布人</b>：<label th:text="${journal?.title}">何亚培</label>
+                        <br/>
+
+
+                        <!-- <a href="default.aspx?controller=KB&action=History&id=2483" class="easyui-linkbutton">版本历史
+                             (1)</a>
+                         <a href="default.aspx?controller=KB&action=VisitLog&id=2483" class="easyui-linkbutton">谁看过这篇文档
+                             (0)</a>
+                         <a href="/default.aspx?controller=Admincp&action=editDoc&id=2483" id=cmdEdit
+                            class="easyui-linkbutton" icon="icon-edit">编辑</a>
+                         <a href="javascript:;" onclick="confirmDel(2483);return false;" class="easyui-linkbutton"
+                            icon="icon-cancel"><b>删除文档</b></a>-->
+
+
+                    </div>
+
+                    <div style="font-family:'Microsoft YaHei','sans-serif';font-size:12.0pt; line-height:28px;border-top:1px dashed #999">
+
+                        <p style="font-family:'Microsoft YaHei','sans-serif';font-size:12.0pt; line-height:28px;">
+                            Copyright © 2020. All Rights Reserved | Design by hyp
+                        </p>
+
+                        <div class="scroll1" id="scroll1" style="display:none;z-index:999">
+                            <img src="/static/easyui/btt.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
