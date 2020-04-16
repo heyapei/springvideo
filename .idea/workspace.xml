@@ -2,1296 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f5d7b0-f508-409d-b5d8-81b5a8505d72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/congratulations.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/doodles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/dust.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/myError/images/search-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error.2020-04-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/error.2020-04-16.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info.2020-04-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/info.2020-04-16.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.hyp.AdminTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.hyp.AdminTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg.war.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/SpringTomcat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/SpringstartApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/config/MyURLPatternConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/controller/Index.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/controller/journal/Index.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/controller/picturewall/Index.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/controller/video/Index.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/dataobject/Journal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/dataobject/PictureWall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/dataobject/ResourceUrl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/mapper/JournalMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/mapper/PictureWallMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/mapper/VideoImgMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/service/JournalService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/service/PictureWallService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/service/VideoImgService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/service/impl/JournalServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/service/impl/PictureWallServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/service/impl/VideoImgServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/utils/GeneratorDisplay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/utils/JsonUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/utils/MyMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/utils/UUID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/utils/returncore/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/utils/returncore/ResultCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/utils/returncore/ResultGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/com/hyp/vo/MyError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/i18n/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/mapper/JournalMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/mapper/PictureWallMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/mapper/VideoImgMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/org/hyp/utils/Sid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/resource.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/bootstrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/js/jQuery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/css/classy-nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/classy.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/classy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/classy.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/classy.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/bg-img/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/core-img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/core-img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/core-img/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/core-img/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/core-img/why1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/core-img/why2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/core-img/why3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/img/core-img/zoom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/js/active.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/js/bootstrap/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/js/bootstrap/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/js/jquery/jquery-2.2.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/js/plugins/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/scss/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/scss/_mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/scss/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/scss/_theme_color.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapblog/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapvalidator/css/bootstrapValidator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapvalidator/js/bootstrapValidator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/bootstrapvalidator/js/language/zh_CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/css/googleapis.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/ckin-video-player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/ckin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/ckin.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/css/htmleaf-demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/dist/css/ckin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/dist/css/ckin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/dist/fonts/ckin.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/dist/fonts/ckin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/dist/fonts/ckin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/dist/fonts/ckin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/dist/js/ckin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/dist/js/ckin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/fonts/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/fonts/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/fonts/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/fonts/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/related/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/related/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/src/fonts/ckin.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/src/fonts/ckin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/src/fonts/ckin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/src/fonts/ckin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/src/js/ckin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/src/scss/_config.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/src/scss/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/customvedio/src/scss/ckin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/datetimepicker/bootstrap-datetimepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/datetimepicker/bootstrap-datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/datetimepicker/bootstrap-datetimepicker.zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/datetimepicker/datetimepicker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/datetimepicker/moment-with-locales.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/btt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/combo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/datebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/calendar_nextmonth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/calendar_nextyear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/calendar_prevmonth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/calendar_prevyear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/datagrid_row_collapse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/datagrid_row_expand.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/datebox_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/menu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/menu_downarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/menu_rightarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/menu_sep.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/menu_split_downarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/messager_error.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/messager_info.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/messager_question.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/messager_warning.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/pagination_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/panel_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/slider_handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tabs_close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_arrows.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_checkbox_0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_checkbox_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_checkbox_2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_dnd_no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_dnd_yes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_elbow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_file.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_folder.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_folder_open.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/tree_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-bg_flat_30_cccccc_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-bg_flat_50_5c5c5c_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-bg_glass_40_ffc73d_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-bg_highlight-hard_20_0972a5_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-bg_highlight-soft_33_003147_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-bg_highlight-soft_35_222222_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-bg_highlight-soft_44_444444_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-bg_loop_25_000000_21x21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-icons_4b8e0b_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-icons_a83300_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-icons_cccccc_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/validatebox_pointer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/validatebox_pointer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/images/validatebox_warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/dark-hive/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/combo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/datebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/calendar_nextmonth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/calendar_nextyear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/calendar_prevmonth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/calendar_prevyear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/datagrid_row_collapse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/datagrid_row_expand.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/datebox_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/menu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/menu_downarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/menu_rightarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/menu_sep.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/menu_split_downarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/messager_error.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/messager_info.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/messager_question.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/messager_warning.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/pagination_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/panel_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/slider_handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tabs_close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_arrows.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_checkbox_0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_checkbox_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_checkbox_2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_dnd_no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_dnd_yes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_elbow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_file.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_folder.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_folder_open.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/tree_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-bg_diagonals-medium_20_d34d17_40x40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-bg_flat_30_cccccc_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-bg_flat_50_5c5c5c_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-bg_gloss-wave_45_817865_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-bg_gloss-wave_60_fece2f_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-bg_gloss-wave_70_ffdd57_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-bg_gloss-wave_90_fff9e5_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-bg_highlight-soft_100_feeebd_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-bg_inset-soft_30_ffffff_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-icons_3d3d3d_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-icons_bd7b00_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-icons_d19405_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-icons_eb990f_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-icons_ed9f26_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-icons_fadc7a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/ui-icons_ffe180_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/validatebox_pointer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/validatebox_pointer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/images/validatebox_warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/demo/sunny/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/easyloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/jquery-1.8.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/jquery.easyui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/licence_gpl.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/license_commercial.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-cz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-jp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-pt_BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-zh_CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/locale/easyui-lang-zh_TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.accordion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.combo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.combobox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.combogrid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.combotree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.datagrid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.datebox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.datetimebox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.draggable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.droppable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.linkbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.menubutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.messager.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.numberbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.numberspinner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.pagination.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.panel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.progressbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.propertygrid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.resizable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.searchbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.spinner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.splitbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.timespinner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.treegrid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.validatebox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/plugins/jquery.window.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/easyloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.accordion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.combobox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.datebox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.draggable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.droppable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.linkbutton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.progressbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.propertygrid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.resizable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/src/jquery.window.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/combo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/datebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/accordion_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/combo_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/datagrid_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/datebox_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/layout_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/linkbutton_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/menu_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/messager_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/pagination_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/panel_tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/searchbox_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/slider_handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/spinner_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/tabs_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/tree_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/validatebox_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/images/validatebox_warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/black/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/combo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/datebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/accordion_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/combo_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/datagrid_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/datebox_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/layout_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/linkbutton_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/menu_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/messager_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/pagination_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/panel_tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/searchbox_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/slider_handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/spinner_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/tabs_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/tree_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/validatebox_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/images/validatebox_warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/bootstrap/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/combo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/datebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/calendar_nextmonth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/calendar_nextyear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/calendar_prevmonth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/calendar_prevyear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/datagrid_row_collapse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/datagrid_row_expand.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/datebox_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/menu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/menu_downarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/menu_rightarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/menu_sep.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/menu_split_downarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/messager_error.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/messager_info.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/messager_question.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/messager_warning.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/pagination_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/panel_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/slider_handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tabs_close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_arrows.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_checkbox_0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_checkbox_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_checkbox_2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_dnd_no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_dnd_yes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_elbow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_file.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_folder.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_folder_open.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/tree_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-icons_2694e8_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-icons_3d80b3_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-icons_72a7cf_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/validatebox_pointer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/validatebox_pointer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/images/validatebox_warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/cupertino/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/combo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/datebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/accordion_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/combo_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/datagrid_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/datebox_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/layout_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/linkbutton_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/menu_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/messager_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/pagination_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/panel_tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/searchbox_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/slider_handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/spinner_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/tabs_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/tree_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/validatebox_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/images/validatebox_warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/default/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/combo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/datebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/accordion_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/combo_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/datagrid_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/datebox_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/layout_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/linkbutton_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/menu_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/messager_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/pagination_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/panel_tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/searchbox_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/slider_handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/spinner_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/tabs_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/tree_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/validatebox_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/images/validatebox_warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/gray/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/cut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/edit_add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/edit_remove.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/filesave.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/mini_add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/mini_edit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/mini_refresh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/ok.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/pencil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/print.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/redo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/reload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/sum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/tip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/icons/undo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/combo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/datebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/accordion_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/combo_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/datagrid_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/datebox_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/layout_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/linkbutton_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/menu_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/messager_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/pagination_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/panel_tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/searchbox_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/slider_handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/spinner_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/tabs_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/tree_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/validatebox_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/images/validatebox_warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/metro/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/combo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/combobox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/datebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/easyui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/calendar_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/calendar_nextmonth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/calendar_nextyear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/calendar_prevmonth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/calendar_prevyear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/datagrid_row_collapse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/datagrid_row_expand.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/datebox_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/menu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/menu_downarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/menu_rightarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/menu_sep.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/menu_split_downarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/messager_error.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/messager_info.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/messager_question.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/messager_warning.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/pagination_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/panel_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/slider_handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tabs_close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_arrows.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_checkbox_0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_checkbox_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_checkbox_2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_dnd_no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_dnd_yes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_elbow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_file.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_folder.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_folder_open.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/tree_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-bg_diagonal-maze_20_6e4f1c_10x10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-bg_diagonal-maze_40_000000_10x10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-bg_fine-grain_10_eceadf_60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-bg_fine-grain_15_eceadf_60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-bg_fine-grain_15_f7f3de_60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-bg_fine-grain_15_ffffff_60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-bg_fine-grain_65_654b24_60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-bg_fine-grain_68_b83400_60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-icons_3572ac_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-icons_8c291d_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-icons_b83400_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-icons_fbdb93_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/validatebox_pointer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/validatebox_pointer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/images/validatebox_warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/linkbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/menubutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/messager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/progressbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/propertygrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/searchbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/splitbutton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/validatebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/easyui/themes/pepper-grinder/window.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/echarts/echarts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/echarts/echarts.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/gsap/gsap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/gsap/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/gsap/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/html2canvas/html2canvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/css/jqm-demos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/css/jqm_demo-icons-hd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/css/jqm_demo-icons-sd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-af.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-ag.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-bb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-bk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-hc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-k.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-mg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-ok.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-p.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-rh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-ws.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/album-xx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/apple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/bg-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/bike.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/blackberry_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/bmw-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/bmw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/buenosaires.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/capetown.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/de.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/fi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/firefox-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/firefox_os.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/galaxy_express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/gf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/glyphish-icons/09-chat2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/glyphish-icons/100-coffee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/glyphish-icons/18-envelope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/glyphish-icons/19-gear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/glyphish-icons/21-skull.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/glyphish-icons/30-key.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/glyphish-icons/34-coffee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/glyphish-icons/88-beermug.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/glyphish-icons/Read me first - license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/jquery-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/landrover-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/landrover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/lumia_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/newyork.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/nexus_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/paris.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/phone_galaxy3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/phone_iphone5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/phone_lumia920.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/phone_onex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/photo-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/photo-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/photo-run.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/seoul.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/sydney.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/tesla-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/tesla.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/tizen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/img/us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/js/globalnav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/js/h2widget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/js/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/js/jqm-demos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/_assets/js/view-source.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/images/icons-18-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/images/icons-18-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/images/icons-36-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/images/icons-36-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/jquery.mobile-1.3.2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/jquery.mobile-1.3.2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/jquery.mobile.structure-1.3.2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/jquery.mobile.structure-1.3.2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/jquery.mobile.theme-1.3.2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/css/themes/default/jquery.mobile.theme-1.3.2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/backbone-require.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/collections/CategoriesCollection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/libs/backbone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/libs/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/libs/jquerymobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/libs/lodash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/libs/require.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/models/CategoryModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/routers/mobileRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/backbone-require/js/views/CategoryView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/collapsibles/dynamic-collapsible.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/controlgroups/dynamic-controlgroup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/listviews/autodividers-linkbar-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/listviews/autodividers-linkbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/listviews/autodividers-linkbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/listviews/autodividers-linkbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/listviews/autodividers-selector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/listviews/grid-listview-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/listviews/grid-listview.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/listviews/grid-listview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/panels/panel-styling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/panels/panel-swipe-open.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/popups/arrow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/popups/dynamic-popup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/popups/jquery.mobile.popup.arrow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/popups/popup.arrow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/slider/slider.tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/slider/slider.tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/slider/tooltip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/buenosaires.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/capetown.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/newyork.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/paris.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/seoul.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/swipe-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/swipe-page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/swipe-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/swipe-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/swipe/sydney.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/tables/columntoggle-refresh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/tables/financial-grouped-columns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/tables/financial-grouped-reflow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/tables/movie-list-toggle-options.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/tables/movie-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/tables/phone-compare.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/examples/tables/reflow-refresh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/controls-in-header-footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/disabling-a-button-does-not-work.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/dom-ready-not-working.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/how-can-i-stop-auto-enhancement-of-a-block-of-elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/how-can-i-stop-auto-enhancement-of-elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/how-configure-phonegap-cordova.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/how-do-i-control-page-titles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/how-do-i-load-a-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/how-do-i-scroll-to-a-position.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/how-do-i-use-touch-mouse-events.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/how-does-theming-work.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/injected-content-is-not-enhanced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/my-html-5-inputs-look-different-in-browsers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/my-range-search-input-type-is-being-changed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/pass-query-params-to-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/pass-via-the-hash-to-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/question-template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/scripts-and-styles-not-loading.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/sometimes-custom-select-shows-as-dialog-popup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/the-application-cache-is-not-working.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/triggering-create-on-injected-content-does-not-work.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/updating-the-value-of-enhanced-form-elements-does-not-work.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/faq/why-is-only-the-first-page-loaded.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/global-nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/intro/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/intro/rwd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/js/jquery.mobile-1.3.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/js/jquery.mobile-1.3.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/js/jquery.mobile-1.3.2.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/nav-examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/nav-faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/nav-widgets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/search-results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/accordions/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/autocomplete/autocomplete-remote.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/autocomplete/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/buttons/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/checkbox/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/collapsibles/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/controlgroups/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/dialog-alt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/dialog-buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/dialog-corners.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/dialog-noclosebtn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/dialog-overlay.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/dialog-rightclosebtn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/dialog-success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/dialog-with-select.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/dialog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/fixed-toolbars/bars-fixed-forms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/fixed-toolbars/bars-fullscreen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/fixed-toolbars/footer-persist-a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/fixed-toolbars/footer-persist-b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/fixed-toolbars/footer-persist-c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/fixed-toolbars/footer-persist-d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/fixed-toolbars/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/footers/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/forms/form-disabled.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/forms/form-fieldcontain.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/forms/form-gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/forms/form-hide-label.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/forms/form-label-hidden.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/forms/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/grids/grid-buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/grids/grid-custom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/grids/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/headers/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/icons/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/links/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/listviews/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/loader/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/navbar/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/navigation/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/navigation/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/pages/multipage-template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/pages/page-template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/panels/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/panels/panel-fixed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/popup/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/popup/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/popup/popup-examples.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/popup/popup-examples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/popup/popup-iframes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/popup/popup-images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/radiobuttons/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/selects/custom-selects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/selects/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/sliders/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/sliders/rangeslider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/sliders/switch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/table-column-toggle/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/table-reflow/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/textinputs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/transitions/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/transitions/page-transitions-dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/demos/widgets/transitions/page-transitions-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/images/icons-18-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/images/icons-18-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/images/icons-36-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/images/icons-36-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery-1.11.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery-2.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery.mobile-1.3.2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery.mobile-1.3.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery.mobile-1.3.2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery.mobile-1.3.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery.mobile-1.3.2.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery.mobile.structure-1.3.2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery.mobile.structure-1.3.2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery.mobile.theme-1.3.2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/jquerymobile/jquery.mobile.theme-1.3.2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/js/ajaxerror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/js/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/css/owl-carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/css/templatemo-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Bold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Bold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Bold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Light-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Light-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Light-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/js/min/main.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/js/min/plugins.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/js/vendor/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/pictureWall/js/vendor/modernizr-2.6.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/fontAwesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/fonts/flexslider-icon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/fonts/flexslider-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/fonts/flexslider-icon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/fonts/flexslider-icon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/light-box.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/css/templatemo-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/about_us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/big_portfolio_item_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/big_portfolio_item_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/big_portfolio_item_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/big_portfolio_item_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/big_portfolio_item_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/big_portfolio_item_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/big_portfolio_item_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/big_portfolio_item_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/big_portfolio_item_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/blog_post_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/blog_post_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/blog_post_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/close_contact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/contact-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/heading_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/latest_gallery_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/latest_gallery_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/latest_gallery_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/latest_gallery_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/latest_gallery_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/latest_gallery_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/latest_gallery_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/latest_gallery_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/masonry_item_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/masonry_item_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/masonry_item_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/masonry_item_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/masonry_item_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/masonry_item_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/masonry_item_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/portfolio_item_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/portfolio_item_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/portfolio_item_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/portfolio_item_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/portfolio_item_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/portfolio_item_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/portfolio_item_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/portfolio_item_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/portfolio_item_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/recent_post_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/recent_post_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/recent_post_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/scroll-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/service_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/service_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/service_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/service_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/service_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/service_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/img/wechat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/js/vendor/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/js/vendor/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/js/vendor/jquery-1.11.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/js/vendor/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/static/videoImg/video/highway-loop.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/templates/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/templates/journal/journalList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/templates/journal/showJournal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/templates/myError/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/templates/pictureWall/showPicture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/templates/videoImg/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/templates/videoImg/videoImgList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/classes/templates/videoImg/videoPlay.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/apiguardian-api-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/attoparser-2.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/commons-io-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/commons-lang3-3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/commons-net-3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/druid-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/druid-spring-boot-starter-1.1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/ecj-3.12.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/freemarker-2.3.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/groovy-2.4.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/hibernate-validator-5.3.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/jackson-core-2.8.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/jackson-databind-2.8.11.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/jcl-over-slf4j-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/jsqlparser-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/jul-to-slf4j-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/junit-jupiter-5.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/junit-jupiter-api-5.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/junit-jupiter-engine-5.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/junit-jupiter-params-5.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/junit-platform-commons-1.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/junit-platform-engine-1.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/log4j-over-slf4j-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/logback-classic-1.1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/logback-core-1.1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/lombok-1.16.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/mapper-3.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/mapper-spring-boot-autoconfigure-1.2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/mapper-spring-boot-starter-1.2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/mybatis-spring-boot-autoconfigure-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/mybatis-spring-boot-starter-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/mysql-connector-java-5.1.41.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/opentest4j-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/pagehelper-5.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/pagehelper-spring-boot-autoconfigure-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/pagehelper-spring-boot-starter-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/persistence-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/snakeyaml-1.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-aop-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-beans-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-boot-1.5.21.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-boot-autoconfigure-1.5.21.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-boot-starter-1.5.21.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-boot-starter-freemarker-1.5.21.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-boot-starter-jdbc-1.5.21.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-boot-starter-logging-1.5.21.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-boot-starter-thymeleaf-1.5.21.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-boot-starter-web-1.5.21.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-boot-test-1.5.21.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-context-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-context-support-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-core-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-expression-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-jdbc-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-tx-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-web-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/spring-webmvc-4.3.24.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/thymeleaf-3.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/thymeleaf-expression-processor-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/thymeleaf-layout-dialect-2.0.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/thymeleaf-spring4-3.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/tomcat-annotations-api-8.5.40.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/tomcat-embed-core-8.5.40.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/tomcat-embed-el-8.5.40.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/tomcat-embed-jasper-8.5.40.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/tomcat-jdbc-8.5.40.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/tomcat-juli-8.5.40.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/unbescape-1.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/videoImg/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1332,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1843">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="490">
+              <caret line="154" column="53" lean-forward="true" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1362,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="45" column="83" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="86" />
+            <state relative-caret-position="488">
+              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -1532,8 +245,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/myError/error2.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" />
       </list>
     </option>
   </component>
@@ -1585,6 +298,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1742,7 +457,34 @@
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hyp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hyp" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hyp" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="journal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
@@ -1770,8 +512,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1787,7 +527,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587018123928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587045810453" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -1944,7 +684,8 @@
       <workItem from="1587009779153" duration="379000" />
       <workItem from="1587010170542" duration="7942000" />
       <workItem from="1587018186359" duration="427000" />
-      <workItem from="1587018626079" duration="353000" />
+      <workItem from="1587018626079" duration="741000" />
+      <workItem from="1587019395320" duration="1384000" />
     </task>
     <task id="LOCAL-00001" summary="提交配置文件">
       <created>1559972061238</created>
@@ -1988,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587012346160</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="日记编辑已经搞定了 另外 添加了鼓励界面 嘿嘿">
+      <created>1587019222822</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587019222822</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2024,7 +772,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103420000" />
+    <option name="totallyTimeSpent" value="105192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -2133,7 +881,8 @@
     <MESSAGE value="同步sql文件" />
     <MESSAGE value="设置默认图标" />
     <MESSAGE value="解决了富文本编辑器图片回显问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决了富文本编辑器图片回显问题" />
+    <MESSAGE value="日记编辑已经搞定了 另外 添加了鼓励界面 嘿嘿" />
+    <option name="LAST_COMMIT_MESSAGE" value="日记编辑已经搞定了 另外 添加了鼓励界面 嘿嘿" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -2461,16 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/error.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5852">
@@ -2529,8 +1268,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="45" column="83" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="86" />
+        <state relative-caret-position="488">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="154" column="53" lean-forward="true" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

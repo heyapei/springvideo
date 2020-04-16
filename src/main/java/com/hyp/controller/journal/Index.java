@@ -98,7 +98,6 @@ public class Index {
     }
 
 
-
     @RequestMapping(value = "/journaladd", method = RequestMethod.POST)
     public String journalAdd(@RequestParam Map<String, Object> params,
                              RedirectAttributes attr,
@@ -122,8 +121,6 @@ public class Index {
         }
 
 
-
-
         return "myError/congratulations";
     }
 
@@ -141,11 +138,12 @@ public class Index {
         try {
             url = imgDirFile.toURL();
         } catch (MalformedURLException e) {
+            log.info("创建文件夹出错：" + e.toString());
             e.printStackTrace();
         }
         log.info("通过file获取的url是：" + url);
         String urlString = url.toString();
-        String urlTemp = urlString.substring(urlString.lastIndexOf("file:/") + 6);
+        String urlTemp = urlString.substring(urlString.lastIndexOf("file:/") + 5);
         log.info("截取出来的路径：" + urlTemp);
         // D:/LifeSpace/IdeaWorkSpace/springstart/target/classes/uploadImg
         String savePath = urlTemp;
