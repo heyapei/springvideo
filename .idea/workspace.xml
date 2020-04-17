@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f5d7b0-f508-409d-b5d8-81b5a8505d72" name="Default Changelist" comment="">
+    <list default="true" id="76f5d7b0-f508-409d-b5d8-81b5a8505d72" name="Default Changelist" comment="win下面路径开头带不带/都是无所谓的 但是Linux上不行 需要带上标识路径 这点是个小坑">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyp/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyp/redis/RedisKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyp/redis/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyp/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyp/redis/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hyp/redis/RedisConfigTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.2020-04-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/info.2020-04-16.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,19 +43,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4902">
-              <caret line="258" column="81" selection-start-line="258" selection-start-column="81" selection-end-line="258" selection-end-column="81" />
+            <state relative-caret-position="609">
+              <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hyp/AdminTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hyp/redis/RedisConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="154" column="53" lean-forward="true" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
+            <state relative-caret-position="361">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,19 +73,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/error.html">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5852">
-              <caret line="308" column="14" selection-start-line="308" selection-start-column="14" selection-end-line="308" selection-end-column="14" />
+            <state relative-caret-position="178">
+              <caret line="228" column="32" selection-start-line="228" selection-start-column="32" selection-end-line="228" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/videoImg/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="60" column="72" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="72" />
+            <state relative-caret-position="490">
+              <caret line="154" column="53" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="817">
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -99,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3382">
+            <state relative-caret-position="3173">
               <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -148,8 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>th:t</find>
-      <find>qr</find>
       <find>http://localhost:8080</find>
       <find>h:each</find>
       <find>showjournal</find>
@@ -178,6 +194,8 @@
       <find>urlString</find>
       <find>passWord</find>
       <find>article</find>
+      <find>jackson</find>
+      <find>true</find>
     </findStrings>
     <replaceStrings>
       <replace>/wq</replace>
@@ -196,12 +214,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hyp/mapper/VideoImgMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/videoImg/video.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/SpringTomcat.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/SpringstartApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/videoImg/videoPlay.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/controller/Index.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/journal/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/videoImg/index.html" />
@@ -241,12 +257,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/utils/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/config/MyURLPatternConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/service/impl/JournalServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/myError/error2.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hyp/redis/RedisConfigTest.java" />
       </list>
     </option>
   </component>
@@ -298,8 +316,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,46 +358,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hyp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hyp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="journal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hyp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="picturewall" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hyp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hyp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
@@ -444,69 +423,38 @@
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hyp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="journal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-net:commons-net:3.5" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-net:commons-net:3.5" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-net-3.5.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="videoImg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-net:commons-net:3.5" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-net-3.5.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -527,7 +475,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587045810453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587108082889" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -544,26 +492,27 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.hyp.service" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\myError\images" />
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\templates\myError" />
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\myError" />
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static" />
-      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\wangeditor" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hyp.mapper" />
-      <recent name="com.hyp.config" />
-      <recent name="com.hyp.controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaWorkSpace\springstart\src\main\resources" />
       <recent name="D:\IdeaWorkSpace\springstart\sql" />
       <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\templates\pictureWall" />
       <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\videoImg\video" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hyp.redis" />
+      <recent name="com.hyp.mapper" />
+      <recent name="com.hyp.config" />
+      <recent name="com.hyp.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\java\com\hyp" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\myError\images" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\templates\myError" />
+      <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static\myError" />
       <recent name="D:\IdeaWorkSpace\springstart\src\main\resources\static" />
     </key>
   </component>
@@ -585,7 +534,7 @@
     </option>
     <option name="contentProportion" value="0.1352459" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringstartApplication ">
+  <component name="RunManager" selected="JUnit.RedisConfigTest.test1">
     <configuration name="GeneratorDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hyp.utils.GeneratorDisplay" />
       <module name="videoImg" />
@@ -631,6 +580,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisConfigTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="videoImg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyp.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyp.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.hyp.redis.RedisConfigTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringstartApplication " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="videoImg" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hyp.SpringstartApplication" />
@@ -646,9 +611,11 @@
       <item itemvalue="JUnit.AdminTest.showOneArticle" />
       <item itemvalue="JUnit.AdminTest.showOArticle" />
       <item itemvalue="Spring Boot.SpringstartApplication " />
+      <item itemvalue="JUnit.RedisConfigTest.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisConfigTest.test1" />
         <item itemvalue="Application.GeneratorDisplay" />
         <item itemvalue="JUnit.AdminTest.showOArticle" />
         <item itemvalue="JUnit.AdminTest.showOneArticle" />
@@ -685,7 +652,8 @@
       <workItem from="1587010170542" duration="7942000" />
       <workItem from="1587018186359" duration="427000" />
       <workItem from="1587018626079" duration="741000" />
-      <workItem from="1587019395320" duration="1384000" />
+      <workItem from="1587019395320" duration="2089000" />
+      <workItem from="1587107803226" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="提交配置文件">
       <created>1559972061238</created>
@@ -736,13 +704,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587019222822</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="win下面路径开头带不带/都是无所谓的 但是Linux上不行 需要带上标识路径 这点是个小坑">
+      <created>1587046183207</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587046183207</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdminTest_showOneArticle - 2020.04.14 at 15h 49m 40s.xml">
-      <configuration name="AdminTest.showOneArticle" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AdminTest_showOneArticle - 2020.04.14 at 15h 53m 43s.xml">
       <configuration name="AdminTest.showOneArticle" configurationId="JUnit" />
     </history-entry>
@@ -770,9 +742,12 @@
     <history-entry file="AdminTest_showOArticle - 2020.04.15 at 11h 07m 31s.xml">
       <configuration name="AdminTest.showOArticle" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RedisConfigTest_test1 - 2020.04.17 at 15h 20m 35s.xml">
+      <configuration name="RedisConfigTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105192000" />
+    <option name="totallyTimeSpent" value="106172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -788,7 +763,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3279678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3279678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -802,7 +777,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.499501" weight="0.3279678" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.499501" visible="true" weight="0.32293764" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.499501" weight="0.32293764" />
       <window_info anchor="bottom" id="Tail" order="17" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.32964823" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -882,7 +857,8 @@
     <MESSAGE value="设置默认图标" />
     <MESSAGE value="解决了富文本编辑器图片回显问题" />
     <MESSAGE value="日记编辑已经搞定了 另外 添加了鼓励界面 嘿嘿" />
-    <option name="LAST_COMMIT_MESSAGE" value="日记编辑已经搞定了 另外 添加了鼓励界面 嘿嘿" />
+    <MESSAGE value="win下面路径开头带不带/都是无所谓的 但是Linux上不行 需要带上标识路径 这点是个小坑" />
+    <option name="LAST_COMMIT_MESSAGE" value="win下面路径开头带不带/都是无所谓的 但是Linux上不行 需要带上标识路径 这点是个小坑" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -894,20 +870,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/SoftWare/apache-maven-3.5.4-bin/apache-maven-3.5.4-bin/repository/tk/mybatis/mapper/3.5.3/mapper-3.5.3.jar!/tk/mybatis/mapper/common/base/update/UpdateByPrimaryKeyMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/videoImg/css/templatemo-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/pictureWall/css/templatemo-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1177,16 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="94" column="21" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/SoftWare/apache-maven-3.5.4-bin/apache-maven-3.5.4-bin/repository/tk/mybatis/mapper/3.5.3/mapper-3.5.3.jar!/tk/mybatis/mapper/common/special/InsertUseGeneratedKeysMapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1224,6 +1176,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/service/JournalService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -1236,7 +1195,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/wangEditor/wangEditor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3382">
+        <state relative-caret-position="3173">
           <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1266,17 +1225,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myError/congratulations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hyp/controller/journal/Index.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
-          <caret line="154" column="53" lean-forward="true" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
+          <caret line="154" column="53" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hyp/AdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="228" column="32" selection-start-line="228" selection-start-column="32" selection-end-line="228" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hyp/redis/RedisConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
