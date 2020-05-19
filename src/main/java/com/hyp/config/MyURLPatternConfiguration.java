@@ -15,6 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 public class MyURLPatternConfiguration extends WebMvcConfigurationSupport {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/uploadImg/**").addResourceLocations("classpath:/uploadImg/");
         registry.addResourceHandler("/favicon.ico").addResourceLocations("classpath:/favicon.ico");
         registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
 
