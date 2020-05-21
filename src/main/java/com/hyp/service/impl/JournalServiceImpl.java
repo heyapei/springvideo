@@ -1,7 +1,7 @@
 package com.hyp.service.impl;
 
-import com.hyp.dataobject.Journal;
-import com.hyp.mapper.JournalMapper;
+import com.hyp.dataobject.blog.Journal;
+import com.hyp.mapper.blog.JournalMapper;
 import com.hyp.service.JournalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

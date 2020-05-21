@@ -1,8 +1,8 @@
 package com.hyp.controller.picturewall;
 
-import com.hyp.dataobject.PictureWall;
+import com.hyp.dataobject.blog.PictureWall;
 import com.hyp.service.PictureWallService;
-import com.hyp.vo.MyError;
+import com.hyp.vo.returnmsg.MyError;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

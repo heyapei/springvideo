@@ -1,6 +1,6 @@
 package com.hyp.service;
 
-import com.hyp.dataobject.PictureWall;
+import com.hyp.dataobject.blog.PictureWall;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.hyp.service;
 
-import com.hyp.dataobject.ResourceUrl;
+import com.hyp.dataobject.blog.ResourceUrl;
 
 import java.util.List;
 

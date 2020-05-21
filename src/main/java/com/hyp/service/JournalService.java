@@ -1,6 +1,6 @@
 package com.hyp.service;
 
-import com.hyp.dataobject.Journal;
+import com.hyp.dataobject.blog.Journal;
 
 import java.util.List;
 

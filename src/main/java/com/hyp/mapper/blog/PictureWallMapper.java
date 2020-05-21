@@ -1,6 +1,6 @@
-package com.hyp.mapper;
+package com.hyp.mapper.blog;
 
-import com.hyp.dataobject.PictureWall;
+import com.hyp.dataobject.blog.PictureWall;
 import com.hyp.utils.MyMapper;
 import org.springframework.stereotype.Repository;
 

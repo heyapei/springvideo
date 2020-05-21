@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hyp.mapper.weixin.vote.WeixinVoteConfMapper" >
+  <resultMap id="BaseResultMap" type="com.hyp.dataobject.weixin.vote.WeixinVoteConf" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="active_vote_base_id" property="activeVoteBaseId" jdbcType="INTEGER" />
+    <result column="active_conf_music_id" property="activeConfMusicId" jdbcType="INTEGER" />
+    <result column="active_conf_repeat_vote" property="activeConfRepeatVote" jdbcType="INTEGER" />
+    <result column="active_conf_vote_type" property="activeConfVoteType" jdbcType="INTEGER" />
+    <result column="active_conf_sign_up" property="activeConfSignUp" jdbcType="INTEGER" />
+    <result column="active_conf_verify" property="activeConfVerify" jdbcType="INTEGER" />
+    <result column="active_conf_num_hide" property="activeConfNumHide" jdbcType="INTEGER" />
+    <result column="active_conf_user_hide" property="activeConfUserHide" jdbcType="INTEGER" />
+    <result column="active_conf_rank_hide" property="activeConfRankHide" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="active_conf_share_img" property="activeConfShareImg" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

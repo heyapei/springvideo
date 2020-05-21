@@ -13,9 +13,9 @@
         </plugin>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://115.29.178.227:3306/video_img"
+                        connectionURL="jdbc:mysql://localhost:3306/weixin"
                         userId="root"
-                        password="hyplove">
+                        password="123456">
         </jdbcConnection>
 
         <!-- 对于生成的pojo所在包 -->
@@ -29,7 +29,13 @@
                              type="XMLMAPPER"/>
 
 
-		<table tableName="picture_wall"></table>
+		<table tableName="weixin_music"></table>
+		<table tableName="weixin_vote_base"></table>
+		<table tableName="weixin_vote_conf"></table>
+		<table tableName="weixin_vote_sys_user"></table>
+		<table tableName="weixin_vote_ticket"></table>
+		<table tableName="weixin_vote_user"></table>
+		<table tableName="weixin_vote_work"></table>
 		<!--<table tableName="user1"></table>-->
 
     </context>

@@ -1,6 +1,6 @@
-package com.hyp.mapper;
+package com.hyp.mapper.blog;
 
-import com.hyp.dataobject.Journal;
+import com.hyp.dataobject.blog.Journal;
 import com.hyp.utils.MyMapper;
 import org.springframework.stereotype.Repository;
 

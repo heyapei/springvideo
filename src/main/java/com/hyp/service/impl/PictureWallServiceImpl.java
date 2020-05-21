@@ -1,7 +1,7 @@
 package com.hyp.service.impl;
 
-import com.hyp.dataobject.PictureWall;
-import com.hyp.mapper.PictureWallMapper;
+import com.hyp.dataobject.blog.PictureWall;
+import com.hyp.mapper.blog.PictureWallMapper;
 import com.hyp.service.PictureWallService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

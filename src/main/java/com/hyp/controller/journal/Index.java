@@ -1,10 +1,10 @@
 package com.hyp.controller.journal;
 
-import com.hyp.dataobject.Journal;
+import com.hyp.dataobject.blog.Journal;
 import com.hyp.service.JournalService;
 import com.hyp.utils.FileNameUtils;
 import com.hyp.utils.FileUtils;
-import com.hyp.vo.MyError;
+import com.hyp.vo.returnmsg.MyError;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

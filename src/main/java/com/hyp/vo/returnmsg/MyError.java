@@ -1,4 +1,4 @@
-package com.hyp.vo;
+package com.hyp.vo.returnmsg;
 
 import lombok.Data;
 

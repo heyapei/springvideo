@@ -1,7 +1,7 @@
 package com.hyp;
 
-import com.hyp.dataobject.Journal;
-import com.hyp.dataobject.ResourceUrl;
+import com.hyp.dataobject.blog.Journal;
+import com.hyp.dataobject.blog.ResourceUrl;
 import com.hyp.service.JournalService;
 import com.hyp.service.VideoImgService;
 import lombok.extern.slf4j.Slf4j;

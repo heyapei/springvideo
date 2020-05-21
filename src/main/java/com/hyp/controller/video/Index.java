@@ -1,9 +1,9 @@
 package com.hyp.controller.video;
 
 
-import com.hyp.dataobject.ResourceUrl;
+import com.hyp.dataobject.blog.ResourceUrl;
 import com.hyp.service.VideoImgService;
-import com.hyp.vo.MyError;
+import com.hyp.vo.returnmsg.MyError;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

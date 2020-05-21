@@ -1,4 +1,4 @@
-package com.hyp.dataobject;
+package com.hyp.dataobject.blog;
 
 import lombok.Data;
 import org.apache.ibatis.annotations.Mapper;

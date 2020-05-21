@@ -1,7 +1,7 @@
 package com.hyp.service.impl;
 
-import com.hyp.dataobject.ResourceUrl;
-import com.hyp.mapper.VideoImgMapper;
+import com.hyp.dataobject.blog.ResourceUrl;
+import com.hyp.mapper.blog.VideoImgMapper;
 import com.hyp.service.VideoImgService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
